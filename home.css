@@ -1,0 +1,62 @@
+html{
+    background-color: #2B2D42;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: tan;
+}
+.title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    flex-wrap: wrap;
+    color: #C33C54;
+    padding-bottom: 20px;
+        border-bottom: 3px solid #C33C54 ;
+}
+.Contents{
+    color: #EDF2F4;
+    font-family: 'Inconsolata', sans-serif;
+    text-decoration: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+div{
+color: #EDF2F4;
+align-content: center;
+padding-top: 200px;
+font-size: 1em;
+text-align: center;
+opacity: 0.5;
+}
+.Adj{
+align-content: center;
+font-family: 'Raleway', sans-serif;
+padding-top: 0px;
+font-size: 2em;
+text-align: center;
+opacity: 1;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
