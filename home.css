@@ -1,5 +1,5 @@
 html{
-    background-color: #2B2D42;
+    background-color: #2A3439;
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,9 +10,9 @@ html{
     font-family: 'Raleway', sans-serif;
     font-size: 3em;
     flex-wrap: wrap;
-    color: #C33C54;
-    padding-bottom: 20px;
-        border-bottom: 3px solid #C33C54 ;
+    color: #EDF2F4;
+    padding-bottom: 10px;
+      border-bottom: 2px solid #FFFFFF;
 }
 .Contents{
     color: #EDF2F4;
