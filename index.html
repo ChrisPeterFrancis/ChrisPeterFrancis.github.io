@@ -18,41 +18,44 @@
 <span class="Contents"></span>
 </body>
 <script>
-    $(function(){
-        $(".Contents").typed({
-            strings: ['Email: <a href="mailto:chrispeterfrancis@gmail.com?Subject=Hello%20again">chrispeterfrancis@gmail.com</a>^500<br>Resume^500<br><a href = "Projects.html"> Projects</a>'],
-            typeSpeed:10
-        });
-    });
+
 </script>
 <div>
-    <span class = "Para" style="white-space:pre" >   </span>
+<span class = "Para" style="white-space:pre" >   </span>
 </div>
 <div class ="Adj">
 <span style="white-space:pre">
-
 </span>
 </div>
 <script>
-    $(function(){
+    setTimeout(function(){
+        $(".Contents").typed({
+            strings: ['-- Email: <a href="mailto:chrispeterfrancis@gmail.com?Subject=Hello%20again">chrispeterfrancis@gmail.com</a>^500<br><a href = "https://www.github.com/chrispyontheoutside">-- Github</a>'],
+            typeSpeed:10,
+            callback: function() {},
+        });
+    }, 0);
+
+    setTimeout(function(){
         $(".Para").typed({
-            startDelay: 100,
             typeSpeed:25,
             showCursor: false,
-            strings: ["^4500 Hello, welcome to this portfolio \n I am a "],
+            strings: ["Hello, welcome to this portfolio \n I am a "],
+            callback: function() {},
+
 
         });
-    });
-        $(function(){
+    }, 4000);
+     setTimeout(function(){
         $(".Adj").typed({
             typeSpeed:50,
-            startDelay: 7300,
             showCursor: false,
-            shuffle: true,
-            strings: ["Developer", "Designer", "Dedicated Worker", "Dutiful Person", "Daedal Individual", "STUDENT"],
-            loop: true
+            strings: ["Developer", "Designer", "Dedicated Worker", "Dutiful Person", "Individual", "Audiophile", "Engineer", "Enthusiast", "Humanitarian", "STUDENT"],
+            loop: true,
+           callback: function() {},
         });
-    });
+    }, 6750);
+
 </script>
 <script>
 
